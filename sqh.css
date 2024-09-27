@@ -127,6 +127,10 @@ nav {
 	position: relative !important;
 }
 
+.has-submenu {
+	width: 125px;
+}
+
 .submenucontainer {
 	height: 35% !important; 
 }
