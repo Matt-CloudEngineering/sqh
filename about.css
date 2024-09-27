@@ -1,0 +1,100 @@
+.ugb-container.ugb-container--v2>.ugb-inner-block>.ugb-block-content>.ugb-container__wrapper {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgba(18,63,82,.035),0 0 0 1px #b0b5c133;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 60px 35px;
+}
+
+.ugb-container.ugb-container--v2 .ugb-container__side {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+.ugb-main-block {
+    margin-bottom: 35px;
+    margin-top: 35px;
+    padding: 0;
+}
+
+.ugb-block-content, .ugb-inner-block {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.ugb-team-member.ugb-team-member--v3 .ugb-block-content {
+    grid-gap: 35px;
+    display: grid;
+    grid-auto-columns: minmax(0,1fr);
+    grid-auto-flow: column;
+}
+
+.ugb-team-member.ugb-team-member--v3 .ugb-team-member__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ugb-team-member.ugb-team-member--v3 .ugb-team-member__image {
+    background-position: 50%;
+    background-size: cover;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 220px;
+    min-height: 1px;
+    margin-bottom: 24px;
+}
+
+.ugb-img.ugb-img--shape {
+    border-radius: none;
+    mask-mode: alpha;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCI+PC9jaXJjbGU+PC9zdmc+');
+    mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCI+PC9jaXJjbGU+PC9zdmc+');
+    margin: 0 auto;
+}
+
+.ugb-team-member.ugb-team-member--v3 .ugb-team-member__content {
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.ugb-team-member.ugb-team-member--v3 .ugb-team-member__name {
+    margin-bottom: 8px;
+}
+
+.ugb-button:not(.ugb-link-button):not(.ugb-button--design-link) {
+    text-decoration: none!important;
+}
+
+.ugb-button, body:not(.home) .gform_button, body:not(.home) .submit {
+    background: linear-gradient(0deg, #265b2c 22%, #306a2f 88%);
+    background-image: linear-gradient(0deg, #265b2c 22%, #306a2f 88%) !important;
+    opacity: 1;
+    font-size: 20px !important;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: white !important;
+    background: transparent;
+    border: 1px solid #52c349 !important;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
