@@ -88,7 +88,7 @@ const deliveryAddress = 'Your Delivery Address Here'; // Replace with the actual
 
 	if (currentURL.includes("festool")) {
 	// Select the target div with the class 'row-breadcrumb'
-        const targetElement = document.querySelector('.row-breadcrumb');
+        const targetElement = document.querySelector('.productaddtocart_container')
 
 	    // Check if the target element exists
 	    if (targetElement) {
@@ -96,7 +96,7 @@ const deliveryAddress = 'Your Delivery Address Here'; // Replace with the actual
 		const newDiv = document.createElement('div');
 
 		// Set the content of the new div (innerHTML)
-		newDiv.innerHTML = "<image src='https://matt-cloudengineering.github.io/sqh/register_your_tool_festool.png' />";
+		newDiv.innerHTML = "<image src='https://matt-cloudengineering.github.io/sqh/register_sidebar.png' />";
 
 		// Insert the new div after the 'row-breadcrumb' div
 		targetElement.insertAdjacentElement('afterend', newDiv);
