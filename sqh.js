@@ -83,26 +83,24 @@ const deliveryAddress = 'Your Delivery Address Here'; // Replace with the actual
 
 // calculateDistance(storeAddress, deliveryAddress);
 
+// Find Festool page and insert register tool image
+	const currentURL = window.location.href;
 
-// Hide Video if already played this browser sesssion
-let x = document.cookie;
-console.log(x);
-let index = x.indexOf("masthead");
-console.log(index);
-let page= document.location;
-console.log(page);
+	if (currentURL.includes("festool")) {
+	// Select the target div with the class 'row-breadcrumb'
+        const targetElement = document.querySelector('.row-breadcrumb');
 
-if (index>0 && page.href == "https://saratogaqualityhardware.com/") {
-        console.log("X is greater than 0");
-        document.getElementById("vid_container").style.visibility= "hidden"
-}
+	    // Check if the target element exists
+	    if (targetElement) {
+		// Create a new div element
+		const newDiv = document.createElement('div');
 
-// Add Event Listener to the Video Exit Button
-var eXit = document.getElementById("exit");
-eXit.onclick=function() {hidenow()};
+		// Set the content of the new div (innerHTML)
+		newDiv.innerHTML = "<image src='https://matt-cloudengineering.github.io/sqh/register_your_tool_festool.png' />
 
-function hidenow() {
-	document.getElementById("vid_container").style.display="none";
-}
-
-
+		// Insert the new div after the 'row-breadcrumb' div
+		targetElement.insertAdjacentElement('afterend', newDiv);
+	    } else {
+		console.warn('Target element with class "row-breadcrumb" not found.');
+	    }
+	}
