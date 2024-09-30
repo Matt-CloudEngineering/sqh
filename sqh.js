@@ -25,18 +25,7 @@ function primaryAnchors(find) {
 	console.log("Called PA");
 }
 
-function hideVideoAP() {
-	//console.log(window.location);
-	if(window.location.href != "https://saratogaqualityhardware.com/") return;
-	video = document.getElementById("vid_container");
-	video.style.display="none";
-	// Set Cookie to check for masthead visibility
-	document.cookie = "masthead_video=played";
-	console.log("Video Hidden");
-	} // Add scripting to write a session cookie if video played and check for cookie existince on page load to enable or disable video
 
-
-document.onload = setTimeout(function () {hideVideoAP()}, 27000);
 //document.onload = setTimeout(function () {primaryAnchors("PaintP")}, 3000);
 
 window.onload= subHeight();
