@@ -487,11 +487,3 @@ p {
     margin: 0px auto !important;
 }
 
-.outbound a {
-	color:red;
-}
-
-/*Hiding Capital One Trade Link */
-#htmlcontent_166976 {
-	display: none !important;
-}
