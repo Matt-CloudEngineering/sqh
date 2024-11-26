@@ -487,6 +487,6 @@ p {
     margin: 0px auto !important;
 }
 
-.dewalt_bf {
+.div.tile.item.product div.footer {
     display: none !important;
 }
