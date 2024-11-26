@@ -487,6 +487,3 @@ p {
     margin: 0px auto !important;
 }
 
-.owl-stage div:nth-child(9) > div {
-    display: none !important;
-}
