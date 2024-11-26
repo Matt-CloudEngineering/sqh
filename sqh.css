@@ -490,3 +490,7 @@ p {
 #ccform {
 	width: 80%;
 }
+
+.current-branch-banner {
+	padding: 1.24rem;
+}
