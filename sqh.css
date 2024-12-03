@@ -51,7 +51,7 @@
 
 
 /* Navigation Styling */
-/*.nav1 a {
+.nav1 a {
   text-decoration: none;
 }
 
@@ -118,8 +118,13 @@ nav {
   width: 100%;
 }
 
+.menu ul.catalog>li>a {
+    max-width: none;
+    font-size: 1.2em !important;
+}
+
 /* submenu styling */
-/*.submenu {
+.submenu {
 	border-top-right-radius: 3rem !important;
 	border-bottom-right-radius: 3rem !important;
 	border-bottom-left-radius: 3rem !important;
@@ -145,6 +150,14 @@ li.has-submenu {
     background-color:white;;
 }*/
 
+.main-nav {
+  text-align: right;
+}
+
+
+/* End of Navigation Styling */
+
+
 .ugb-team-member__buttons {
   display:none;
 }
@@ -154,9 +167,6 @@ li.has-submenu {
   margin: auto;
 }
 
-.main-nav {
-  text-align: right;
-}
 
 .vertical-align {
   padding-top: 0 !important;
@@ -217,11 +227,6 @@ li.has-submenu {
     padding-right: 15px;
     width: 100% !important;
 }
-
-/*.menu ul.catalog>li>a {
-    max-width: none;
-    font-size: 1.2em !important;
-}*/
 
 /* Masthead Section */
 /*.masthead_content {
