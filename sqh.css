@@ -226,65 +226,6 @@ li.has-submenu {
     width: 100% !important;
 }
 
-/* Masthead Section */
-/*.masthead_content {
-	max-width: 1000px;
-	max-height: auto;
-	margin: 0 auto;
-	position: relative;
-	z-index: 2;
-	display: flex;
-}
-
-.masthead__title {
-    border-right: 1px solid white;
-    padding-right: 30px;
-    margin-right: 30px;
-}
-
-.masthead__title h1 {
-    color: white;
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 50px;
-}
-
-.masthead__subtitle {
-    color: white;
-}
-*/
-/*.opaque--black {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: block;
-    z-index: 1;
-}
-
-.masthead video, #exit_vid {
-    position: absolute;
-    top: 246px;
-    left: 0;
-    max-width: 1440px;
-    min-width: 100%;
-    z-index:5;
-    object-position: center;
-    object-fit: cover; 
-}
-
-#exit_vid {
-	z-index: 11;
-}
-
-#exit {
-	opacity: 55%;
-	left: 0px;
-}*/
-
-
 .headersection-3 {
 	border-bottom: 3px solid #306a2f;
 	width: 100%;
@@ -494,8 +435,16 @@ p {
 	width: 80%;
 }
 
+/* Responsive Breakpoints */
 @media only screen and (max-width: 600px) {
 	.current-branch-banner {
 		padding: 1.24rem;
 	}
+}
+
+@media only screen and (max-width: 1375) {
+	.menu.expanded .catalog>li>ul.submenu>div>li {
+		width: 80%;
+	}
+}
 }
