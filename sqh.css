@@ -442,7 +442,7 @@ p {
 	}
 }
 
-@media only screen and (max-width: 1375) {
+@media only screen and (max-width: 1366px) {
 	.menu.expanded .catalog>li>ul.submenu>div>li {
 		width: 80%;
 	}
