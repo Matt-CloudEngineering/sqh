@@ -1,7 +1,7 @@
 
 /* Multi Purpose Script for SQH Site functionality and styling */
 
-
+/*
 function subHeight() {
 	if(document.getElementsByClassName("submenucontainer")) {
 		var thing= document.getElementsByClassName("submenucontainer");
@@ -12,6 +12,11 @@ function subHeight() {
 	}
 }
 
+window.onload= subHeight();
+
+*/
+
+/*
 function primaryAnchors(find) {
 	anchors = document.getElementsByTagName("a");
 	console.log(anchors.length);
@@ -24,13 +29,12 @@ function primaryAnchors(find) {
 	}
 	console.log("Called PA");
 }
-
+*/
 
 //document.onload = setTimeout(function () {primaryAnchors("PaintP")}, 3000);
 
-window.onload= subHeight();
-
-function calculateDistance(origin, destination) {
+// Method for determining User city and recommending Store
+/*function calculateDistance(origin, destination) {
   // This is the endpoint URL of the Distance Matrix API service
   const endpoint = 'https://maps.googleapis.com/maps/api/distancematrix/json?';
 
@@ -71,6 +75,8 @@ const storeAddress = '1600 Amphitheatre Parkway, Mountain View, CA';
 const deliveryAddress = 'Your Delivery Address Here'; // Replace with the actual address
 
 // calculateDistance(storeAddress, deliveryAddress);
+
+*/
 
 // Find Festool page and insert register tool image
 	const currentURL = window.location.href;
