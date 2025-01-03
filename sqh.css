@@ -435,6 +435,11 @@ p {
 	width: 80%;
 }
 
+#shipping {
+   width: 55%;
+   font: smaller;
+}
+
 /* Responsive Breakpoints */
 @media only screen and (max-width: 600px) {
 	.current-branch-banner {
