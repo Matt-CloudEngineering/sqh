@@ -438,6 +438,7 @@ p {
 #shipping p {
    font-weight: bold;
    color: #306a2f;
+   text-align: center;
 }
 
 /* Responsive Breakpoints */
