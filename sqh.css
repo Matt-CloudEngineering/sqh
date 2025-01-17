@@ -253,10 +253,6 @@ li.has-submenu {
 	font-size: larger;
 }
 
-.minicart_container {
-	margin-right: 5rem;
-}
-
 .contactform_container {
 	padding: 5rem;
 	padding-left: 2rem
@@ -439,10 +435,6 @@ p {
    font-weight: bold;
    color: #306a2f;
    text-align: center;
-}
-
-.minicart_container {
-	margin-right: 0;
 }
 
 /* Responsive Breakpoints */
