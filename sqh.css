@@ -361,9 +361,10 @@ p {
   width: 100%;
 }
 
-.imageslider_wrapper {
+/* .imageslider_wrapper {
 	box-shadow: -10px 10px lightgray;
 }
+*/
 
 .grid-containerX {
   display: grid;
